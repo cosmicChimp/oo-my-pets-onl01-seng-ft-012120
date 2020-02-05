@@ -34,6 +34,7 @@ class Owner
     crookshanks = Cat.new("Crookshanks")
     end
   end
+  end
   
   def self.count
     self.all.length 
