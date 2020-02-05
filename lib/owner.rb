@@ -20,7 +20,7 @@ class Owner
   
   def cats
     Cat.all.select do |x|
-      x.name == self
+      x.owner == self
     end
   end
   
@@ -32,7 +32,7 @@ class Owner
   
   def buy_cat
     self.all.each do |cat|
-      cat.owner == self
+      cat.name == self
     end
   end
   
