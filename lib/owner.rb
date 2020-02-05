@@ -32,7 +32,7 @@ class Owner
   
   def buy_cat(cat)
     Cat.all.find do |x|
-      x.name == 
+      x.name == cats
   end
   
   def self.count
