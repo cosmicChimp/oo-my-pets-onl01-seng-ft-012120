@@ -33,7 +33,7 @@ class Owner
   def buy_cat(cat_name)
     new_var = Cat.all.find { |x| x.name == cat_name}
     new_var.owner = self
-    @@all << self
+    
   end
   
   def self.count
