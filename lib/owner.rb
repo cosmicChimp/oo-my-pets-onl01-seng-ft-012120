@@ -31,8 +31,7 @@ class Owner
   end
   
   def buy_cat(cat)
-    self.cats.each do |cat|
-      cat.owner == self
+    crookshanks = Cat.new("Crookshanks")
     end
   end
   
