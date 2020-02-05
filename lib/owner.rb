@@ -32,7 +32,7 @@ class Owner
   
   def buy_cat(cat)
     Cat.all.each do |cat|
-      cat.name == name
+      cat.owner == name
     end
   end
   
