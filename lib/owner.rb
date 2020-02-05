@@ -33,6 +33,7 @@ class Owner
   def buy_cat
     self.all.each do |cat|
       cat.owner == self
+    end
   end
   
   def self.count
