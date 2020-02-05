@@ -30,7 +30,7 @@ class Owner
     end
   end
   
-  def buy_cat
+  def buy_cat(cat)
     self.all.each do |cat|
       cat.name == name
     end
