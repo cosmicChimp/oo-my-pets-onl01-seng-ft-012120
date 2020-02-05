@@ -31,7 +31,8 @@ class Owner
   end
   
   def buy_cat
-    Cat.new
+    self.all.each do |cat|
+      cat.owner == self
   end
   
   def self.count
