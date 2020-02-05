@@ -4,10 +4,9 @@ class Owner
   
   @@all = []
   
-  def initialize(name, pets)
+  def initialize(name)
     @name = name
     @species = "human"
-    @pets = pets
     @@all << self
   end
   
@@ -33,7 +32,7 @@ class Owner
   
   def buy_cat(cat)
     Cat.all.each do |cat|
-      cat.pets == self
+      cat.name == self
     end
   end
   
