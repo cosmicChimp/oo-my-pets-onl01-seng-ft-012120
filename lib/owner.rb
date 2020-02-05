@@ -32,6 +32,7 @@ class Owner
   
   def buy_cat(cat)
     crookshanks = Cat.new("Crookshanks")
+    @@all << crookshanks
   end
   
   def self.count
