@@ -30,6 +30,9 @@ class Owner
     end
   end
   
+  def buy_cat(cat_name)
+    
+  
   def self.count
     self.all.length 
   end
