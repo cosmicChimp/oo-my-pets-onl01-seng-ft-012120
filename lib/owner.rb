@@ -50,6 +50,12 @@ class Owner
     end
   end
   
+  def feed_cats
+    Cat.all.each do |cat|
+      cat.mood = "happy"
+    end
+  end
+  
   def self.count
     self.all.length 
   end
