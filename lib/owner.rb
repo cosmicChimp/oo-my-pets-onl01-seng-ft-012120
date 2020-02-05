@@ -40,6 +40,10 @@ class Owner
     Cat.new(cat_name, self)
   end
   
+  def buy_dog(dog_name)
+    Dog.new(dog_name, self)
+  end
+  
   def self.count
     self.all.length 
   end
