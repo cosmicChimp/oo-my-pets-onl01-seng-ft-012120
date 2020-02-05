@@ -30,8 +30,8 @@ class Owner
     end
   end
   
-  def buy_cat(cat_name)
-    @pets[:cats] << Cat.new(cat_name)
+  def buy_cat
+    cat = Cat.new
   end
   
   def self.count
